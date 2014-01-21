@@ -151,6 +151,11 @@
 			attributes = {
 				CLASSPREFIX = LA;
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					4631B5E2171DF4CC00B6368C = {
+						DevelopmentTeam = 6RB5MAZW2K;
+					};
+				};
 			};
 			buildConfigurationList = 4631B5DE171DF4CC00B6368C /* Build configuration list for PBXProject "LAWalkthrough Example1" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,11 +291,14 @@
 		4631B607171DF4CC00B6368C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LAWalkthrough Example1/LAWalkthrough Example1-Prefix.pch";
 				HEADER_SEARCH_PATHS = ../../LAWalkthrough;
 				INFOPLIST_FILE = "LAWalkthrough Example1/LAWalkthrough Example1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -298,11 +306,14 @@
 		4631B608171DF4CC00B6368C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LAWalkthrough Example1/LAWalkthrough Example1-Prefix.pch";
 				HEADER_SEARCH_PATHS = ../../LAWalkthrough;
 				INFOPLIST_FILE = "LAWalkthrough Example1/LAWalkthrough Example1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
